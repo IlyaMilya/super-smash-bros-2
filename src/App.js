@@ -2,6 +2,7 @@ import './App.css';
 import Fighter from './components/Fighter';
 import FighterScreen from './components/FighterScreen';
 import { useState } from 'react';
+import SideNavigation from './components/SideNavigation';
 
 const characters = [
   {name: 'Roy', color: 'red'},
@@ -26,6 +27,7 @@ function App() {
         })}
      </div>
       <FighterScreen isVisible={visible} setVisible={setVisible} selectedCharacter={selectedCharacter} />
+      <SideNavigation isVisible={visible} characters={characters} />
     </div>
   );
 }
