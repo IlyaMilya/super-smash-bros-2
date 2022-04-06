@@ -41,3 +41,31 @@
   height:100vh;
   bottom: 0;
 }
+
+.name-bg {
+font-size: 65em;
+position: absolute;
+top: -20%;
+left: 0%;
+z-index: -2;
+text-transform: uppercase;
+font-family: 'Bebas Neue', cursive;
+color: lightslategrey;
+}
+
+.name-fg {
+  font-size: 25em;
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  left: 8%;
+  
+}
+
+.char-portrait {
+  position: absolute;
+  right: -10%;
+  top: -10%;
+  z-index: -1;
+
+
+}
